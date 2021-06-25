@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Desapperong Ninja</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready( function() {
+
+        $('.me-img').click( function(){
+            $(this).hide();    
+        });
+
+        $('button').click( function(){
+            $('.me-img').show();    
+        });
+
+    });
+</script>
+<style>
+    img {
+     width: 200px;
+    }
+    button{
+        background-color: green;
+        color: beige;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1>JQuery Assignment1</h1>
+    <img class="me-img" src="images/ninja.jpg" />
+    <img class="me-img" src="images/ninja.jpg" />
+    <img class="me-img" src="images/ninja.jpg" />
+    <img class="me-img" src="images/ninja.jpg" />
+    <br>
+    <img class="me-img" src="images/ninja.jpg" />
+    <img class="me-img" src="images/ninja.jpg" />
+    <img class="me-img" src="images/ninja.jpg" />
+    <img class="me-img" src="images/ninja.jpg" />
+    <br>
+    <button>Restore</button>
+
+    
+</body>
+</html>
